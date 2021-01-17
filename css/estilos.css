@@ -1,0 +1,37 @@
+body {
+    background: #f1f1f1;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 440px;
+    background: #FFF;
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+}
+
+.frm-row {
+    margin-bottom: 12px;
+}
+
+.frm-row label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.frm-row input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    height: 25px;
+    font-size: 1.2rem;
+}
+
+li {
+    margin-bottom: 11px;
+}

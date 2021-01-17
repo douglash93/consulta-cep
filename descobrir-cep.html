@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilos.css" rel="stylesheet">
+    <title>Não sei meu CEP</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Não sei meu CEP</h2>
+        <form>
+            <div class="frm-row">
+                <label for="rua">rua</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+            <div class="frm-row">
+                <label for="cidade">cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">estado</label>
+                <input type="text" name="estado" id="estado">
+            </div>
+            <div class="frm-row">
+                <button id="btnBuscarCep" class="btn">Buscar CEP</button>
+            </div>
+        </form>
+
+        <ul id="listaCep"></ul>
+    </div>
+
+    <script src="js/consulta-cep.js"></script>
+</body>
+</html>
